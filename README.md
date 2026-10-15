@@ -12,7 +12,7 @@ A Python-based face recognition system that includes the full pipeline: capturin
 |---|---|
 | headshots.py | Captures face images from webcam for training data |
 | train_model.py | Trains the face recognition model from captured images |
-| face_ditect.py | Real-time face detection using Haar Cascade classifier |
+| face_detect.py | Real-time face detection using Haar Cascade classifier |
 | facial_req.py | Face recognition — matches detected faces to known identities |
 | haarcascade_frontalface_default.xml | Pre-trained Haar Cascade model for face detection |
 
@@ -20,7 +20,7 @@ A Python-based face recognition system that includes the full pipeline: capturin
 
 1. **Capture** — Run headshots.py to collect face images from your webcam
 2. **Train** — Run train_model.py to build a recognition model from the images
-3. **Detect** — Run face_ditect.py to detect faces in real time
+3. **Detect** — Run face_detect.py to detect faces in real time
 4. **Recognise** — Run facial_req.py to identify faces against the trained model
 
 ## Requirements
